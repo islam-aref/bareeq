@@ -30,7 +30,7 @@ const ContactUs = () => {
             </div>
             <div className={styles.contactInfo}>
               <h3>هاتِفنا</h3>
-              <p>+201212590290</p>
+              <p>+201281778761</p>
             </div>
           </div>
         </div>
