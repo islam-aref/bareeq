@@ -19,7 +19,7 @@ const ContactUs = () => {
             </div>
             <div className={styles.contactInfo}>
               <h3>اكتب لنا</h3>
-              <p>info@skabco.com</p>
+              <p>info@bareeqpublishing.com</p>
             </div>
           </div>
 
@@ -30,7 +30,7 @@ const ContactUs = () => {
             </div>
             <div className={styles.contactInfo}>
               <h3>هاتِفنا</h3>
-              <p>+966 12 613 99 99</p>
+              <p>+201212590290</p>
             </div>
           </div>
         </div>
@@ -40,7 +40,15 @@ const ContactUs = () => {
           <p className={styles.addressText}>
             جمهورية مصر العربية
             <br />
-            الجيزة، العمرانية
+            مدينة السادات، المنوفية
+            <br />
+            سوق الحي 11
+            <br />
+            مكتب المبيعات
+            <br />
+            المساحة، فيصل
+            <br />
+            الجيزة
             <br />
             صـ . بـ . 12111{" "}
           </p>
