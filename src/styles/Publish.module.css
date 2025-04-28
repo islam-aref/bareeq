@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700&display=swap");
+
+.publishPage {
+  font-family: "Tajawal", sans-serif;
+  background-color: #f5faff;
+  text-align: center;
+}
+
+.header {
+  margin-bottom: 2rem;
+}
+
+.title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #217dbb;
+  position: relative;
+  padding-bottom: 0.8rem;
+}
+
+.title::after {
+  content: "";
+  margin-top: 15px;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 120px;
+  height: 3px;
+  background: linear-gradient(90deg, #62a1d6, #217dbb);
+}
+
+.subtitle {
+  font-size: 1.2rem;
+  color: #555;
+  margin-top: 1rem;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.image {
+  width: 100%;
+  max-width: 600px;
+  margin-bottom: 2rem;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+  width: 100%;
+  max-width: 1200px;
+  margin-bottom: 70px;
+}
+
+.card {
+  background: #ffffff;
+  border-radius: 80px;
+  padding: 1.5rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: right;
+  position: relative;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.number {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #ffffff;
+  background: #217dbb;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: -25px;
+  left: -25px;
+}
+
+.card p {
+  font-size: 1.1rem;
+  color: #555;
+  line-height: 1.6;
+}
