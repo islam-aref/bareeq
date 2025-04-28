@@ -28,8 +28,8 @@
 .sectionTitle {
   font-size: 2rem;
   margin-bottom: 1.5rem;
-  color: #827a80;
-  text-align: right; /* Titles aligned to left */
+  color: #f4f4f4;
+  text-align: center; /* Titles aligned to left */
   padding-left: 10%; /* Consistent title alignment */
 }
 
@@ -38,7 +38,7 @@
   line-height: 1.6;
   max-width: 80%;
   margin: 0 auto; /* Centers the text block */
-  text-align: end; /* Justified text like MS Word */
+  text-align: center; /* Justified text like MS Word */
   text-justify: inter-word; /* Better word spacing */
   font-weight: normal; /* Base weight */
 }
