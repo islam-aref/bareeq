@@ -46,7 +46,7 @@ const NavBar = () => {
             من نحن
           </Link>
           <Link
-            to="/Books"
+            to="/books"
             className={styles.navLink}
             onClick={closeMobileMenu}
           >
